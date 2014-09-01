@@ -6,7 +6,7 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
-var buffer = fs.readFileSync('app/index.html','utf8');
+var buffer = fs.readFileSync('dist/index.html','utf8');
 
 
 app.get('/', function(request, response) {
