@@ -34,7 +34,16 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
+ /* "scripts": {
     "test": "grunt test"
   }
+  */
+
+  "scripts": {
+   "postinstall": "npm run build && npm run rejoice",
+    "build": "grunt",
+    "rejoice": "echo yay!",
+    "start": "node index.js"
+}
+
 }
