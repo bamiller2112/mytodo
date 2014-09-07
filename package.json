@@ -45,7 +45,7 @@
    "postinstall": "npm run build && npm run rejoice",
     "build": "grunt",
     "rejoice": "echo yay!",
-    "start": "node web.js"
+    "start": "node index.js"
 }
 
 }
